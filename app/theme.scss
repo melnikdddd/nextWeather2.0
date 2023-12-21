@@ -1,0 +1,161 @@
+
+.default {
+  @apply bg-slate-700 text-slate-50;
+
+  input {
+    @apply text-slate-200 bg-slate-600;
+  }
+}
+
+.clear {
+  &.day {
+    @apply text-slate-100;
+
+    background-color: rgba(34,92,191,1);
+
+    .home-wrap{
+      background: rgb(78,133,255);
+      background: linear-gradient(355deg, rgba(78,133,255,1) 26%, rgba(34,92,191,1) 86%);
+
+    }
+    footer{
+      background-color: rgba(78,133,255,1);
+    }
+
+    input {
+      @apply bg-blue-900 text-blue-50;
+    }
+  }
+
+  &.night {
+    @apply  text-slate-200;
+
+    background-color: rgb(11, 40, 90);
+
+    .home-wrap{
+      background: rgb(78,133,255);
+      background: linear-gradient(353deg, rgb(40, 71, 144) 26%, rgb(11, 40, 90) 86%);
+
+    }
+    footer{
+      background-color: rgb(40, 71, 144);
+    }
+
+    input {
+      @apply bg-blue-600 text-blue-50;
+    }
+  }
+
+}
+
+.snow {
+  &.day {
+    @apply text-gray-800;
+
+    background: rgba(201,211,230,1);
+
+    .home-wrap{
+      background: rgb(30, 77, 174);
+      background: linear-gradient(0deg, rgb(30, 77, 174) 89%, rgba(201,211,230,1) 99%);
+    }
+    footer{
+      background: rgb(30, 77, 174);
+    }
+
+    input {
+      @apply bg-blue-600 text-slate-50;
+    }
+  }
+
+  &.night {
+    @apply text-slate-50;
+    background: rgba(201,211,230,1);
+
+    .home-wrap{
+      background: rgb(25,54,119);
+      background: linear-gradient(0deg, rgba(25,54,119,1) 40%, rgba(201,211,230,1) 99%);
+    }
+    footer{
+      background: rgba(25,54,119,1);
+    }
+    input {
+      @apply bg-gray-800 text-gray-50;
+    }
+  }
+
+
+}
+
+.clouds {
+  &.day {
+    @apply text-gray-800;
+    background-color: rgba(78,133,255,1);
+
+    .home-wrap{
+      background: rgb(156,163,175);
+      background: linear-gradient(353deg, rgba(156,163,175,1) 40%, rgba(78,133,255,1) 83%);
+    }
+    footer{
+      background-color: rgba(156,163,175,1);
+    }
+
+    input {
+      @apply bg-slate-600 text-slate-100;
+    }
+  }
+
+  &.night {
+    @apply text-slate-200;
+
+    background-color: rgb(32, 65, 137);
+
+    .home-wrap{
+      background: rgb(113, 114, 121);
+      background: linear-gradient(353deg, rgb(113, 114, 121) 35%, rgb(32, 65, 137) 83%);
+    }
+    footer{
+      background-color: rgb(113, 114, 121);
+    }
+    input {
+      @apply bg-slate-600 text-slate-100;
+    }
+  }
+
+}
+
+.mist {
+  &.day {
+    @apply bg-slate-400 text-gray-800;
+    input {
+      @apply bg-blue-900 text-blue-50;
+    }
+  }
+
+  &.night {
+    @apply bg-slate-800 text-slate-50;
+
+    input {
+      @apply bg-slate-500 text-slate-100;
+    }
+  }
+
+}
+
+.rain {
+  &.day {
+    @apply bg-blue-600 text-slate-50;
+
+    input {
+      @apply bg-blue-900 text-blue-50;
+    }
+  }
+
+  &.night {
+    @apply bg-blue-950 text-slate-50;
+
+    input {
+      @apply bg-blue-800 text-blue-50;
+    }
+  }
+
+}
